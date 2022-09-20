@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+	/*display: inline-block;*/
+}
+nav a{
+	margin-right: 20px;
+	text-decoration: none;
+}
+a{
+	color: royalblue;
+}
+a:hover{
+	background: orange;
+}
+
+p{
+	color: royalblue;
+}
+h2{
+	color: red;
+}
+h3{
+	color: orange;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-right: 20px;
+	padding-left: 20px ;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+.col-2 h2{
+	font-size: 20px;
+	line-height: 60px;
+	margin: 25px 0;
+
+}
+.col-2 h1{
+	font-size: 40px;
+	line-height: 60px;
+	margin: 25px 0;
+	color: red;
+}
+
+.btn{
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	background: blue;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.btn:hover{
+	background: pink;
+}
+.header{
+	background: radial-gradient(black);
+}
+.categories{
+	margin: 70px 0;
+
+}
+.col-3{
+	flex-basis: 20%;
+	min-width: 300px;
+	margin-bottom: 30px;
+}
+.col-3 img {
+	width: 100% ;
+}
+.smallcontainer{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.col-4{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	transform: transform 0.5s;
+}
+.col-4 img{
+	width: 100%;
+}
+.title{
+	text-align: center;
+	margin: 0 auto 30px;
+	position: relative;
+	line-height: 60px;
+	color: red;
+}
+.col-4:hover{
+	transform: translateY(-5px);
+}
+footer{
+	background: black;
+	color: skyblue;
+	font-size: 10px;
+	padding: 60px 0 20px;
+	display: flex;
+	bottom: 0;
+	height: 20vh;
+}
+footer p{
+	color: skyblue;
+	/*position: absolute;*/
+	left: 45%;
+	bottom: 5px;
+}
+footer h2{
+	color: white;
+	font-size: 10px;
+	/*position: absolute;*/
+	left: 45%;
+	bottom: 5px;
